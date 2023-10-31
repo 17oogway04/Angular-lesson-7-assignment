@@ -10,17 +10,17 @@ import { CoffeeService } from 'src/app/services/coffee.service';
 })
 export class CreateProductComponent {
 
-    newProduct: Product = new Product();
+  newProduct: Product = new Product();
 
-    constructor(private productService: CoffeeService, private router: Router){}
+  constructor(private productService: CoffeeService, private router: Router) { }
 
-    ngOnInit(): void{}
+  ngOnInit(): void { }
 
-    onSubmit(){
-      this.productService.createNewProduct(this.newProduct).subscribe(response => {
-        console.log(response);
-        this.router.navigateByUrl("/products")
-      })
-    }
+  onSubmit() {
+    this.productService.createNewProduct(this.newProduct).subscribe(response => {
+      console.log(response);
+      this.router.navigateByUrl("/products")
+    })
+  }
 
 }

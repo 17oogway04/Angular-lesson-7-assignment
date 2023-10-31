@@ -4,7 +4,7 @@
       "id": 1,
       "productName": "Coffee",
       "description": "Bottomless House Roasted Coffee",
-      "price": 2.5
+      "price": "2.75"
     },
     {
       "id": 2,
@@ -22,31 +22,13 @@
       "id": 4,
       "productName": "Pecan Pie",
       "description": "A slice of our exquisite Pecan Pie",
-      "price": 2.5
+      "price": "3"
     },
     {
       "id": 5,
       "productName": "Matcha Tea",
       "description": "Green grass looking tea",
       "price": "5"
-    },
-    {
-      "id": 6,
-      "productName": "cinnamon",
-      "description": "diabetes covered in bread",
-      "price": "6"
-    },
-    {
-      "id": 7,
-      "productName": "ahsdf",
-      "description": "hasdfo",
-      "price": "10"
-    },
-    {
-      "id": 8,
-      "productName": "",
-      "description": "",
-      "price": 0
     }
   ]
 }

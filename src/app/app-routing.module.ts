@@ -8,7 +8,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http'
 import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const routes: Routes = [
-  { path: " ", redirectTo: "products", pathMatch: "full" },
+  { path: "", redirectTo: "products", pathMatch: "full" },
   { path: "products", component: ProductlistComponent },
   { path: "product/:id", component: ProductDetailsComponent },
   { path: "create", component: CreateProductComponent },

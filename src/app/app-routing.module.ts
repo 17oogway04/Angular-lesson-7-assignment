@@ -4,20 +4,22 @@ import { ProductlistComponent } from './components/productlist/productlist.compo
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { CreateProductComponent } from './components/create-product/create-product.component';
 import { EditProductComponent } from './components/edit-product/edit-product.component';
-import { HttpClient,HttpClientModule } from '@angular/common/http'
+import { HttpClient, HttpClientModule } from '@angular/common/http'
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const routes: Routes = [
-  { path: " ", redirectTo: "productlist", pathMatch: "full" },
+  { path: " ", redirectTo: "products", pathMatch: "full" },
   { path: "products", component: ProductlistComponent },
   { path: "product/:id", component: ProductDetailsComponent },
   { path: "create", component: CreateProductComponent },
-  { path: "edit/:id", component: EditProductComponent }
+  { path: "edit/:id", component: EditProductComponent },
+
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes), 
-    HttpClientModule, 
+    RouterModule.forRoot(routes),
+    HttpClientModule,
   ],
   exports: [RouterModule]
 })

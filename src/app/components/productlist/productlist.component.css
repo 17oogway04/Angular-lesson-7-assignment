@@ -1,1 +1,32 @@
 /* using margins and percentages and EU's(1.25 or .05) when it comes to borders */
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+ul {
+    padding-right: 20px;
+    text-align: start;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    border-radius: 8px;
+    box-shadow: gray 5px 5px 10px;
+    max-width: 300px;
+    padding: 20px;
+    margin: 30px auto;
+    column-gap: 30px;
+    background-color: #38a3a5;
+}

@@ -1,13 +1,12 @@
 <h1>Edit Product</h1>
-<form #form="ngForm" (ngSubmit)="onSubmit()">
-    <label>Product Name</label>
-    <input type="text" name="productName" [(ngModel)]="currentProduct.productName">
+<form #form="ngForm" (ngSubmit)="onSubmit()" class="form">
+    <label>Product Name: </label>
+    <input type="text" name="productName" [(ngModel)]="currentProduct.productName"><br>
 
-    <label>Description</label>
-    <input type="text" name="description" [(ngModel)]="currentProduct.description">
+    <label>Description: </label>
+    <textarea type="text" name="description" [(ngModel)]="currentProduct.description"></textarea><br>
 
-    <label>Price</label>
-    <input type="text" name="price" [(ngModel)]="currentProduct.price">
-
-    <button type="submit">EDIT PRODUCT</button>
+    <label>Price: </label>
+    <input type="text" name="price" [(ngModel)]="currentProduct.price"><br>
+    <button type="submit" class="btn btn-outline-dark">EDIT PRODUCT</button>
 </form>

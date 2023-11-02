@@ -13,12 +13,6 @@
       "price": 2.5
     },
     {
-      "id": 3,
-      "productName": "Chocolate Milkshake",
-      "description": "Dark chocolate whipped with locally sourced milk and sweetened with sugar",
-      "price": 2.5
-    },
-    {
       "id": 4,
       "productName": "Pecan Pie",
       "description": "A slice of our exquisite Pecan Pie",
@@ -29,6 +23,12 @@
       "productName": "Matcha Tea",
       "description": "Green grass looking tea",
       "price": "5"
+    },
+    {
+      "id": 6,
+      "productName": "Half & Half",
+      "description": "Creamer to make it creamy",
+      "price": "2.25"
     }
   ]
 }

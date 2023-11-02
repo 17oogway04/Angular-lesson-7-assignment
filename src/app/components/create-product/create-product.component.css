@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    margin: 35px;
+    color: #22577a;
+}
+
+form{
+    text-align: center;
+}
+
+label{
+    padding-right: 18px;
+}
+
+input{
+    margin: 5px;
+}
+
+button{
+    margin: 20px;
+}
